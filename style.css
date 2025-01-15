@@ -1,0 +1,17 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    max-width: fit-content(100%);
+    max-height: fit-content(100%);
+    overflow: auto; 
+  }
